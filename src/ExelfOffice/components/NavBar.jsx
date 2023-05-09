@@ -122,7 +122,7 @@ const handleClose = () => {
                             alt="Main logo"
                             sx={{
                                 width: '150px', // Cambia a un ancho fijo
-                                marginLeft: -3, 
+                                marginLeft: -4, 
                                 marginTop: -2
                             }}
                             />)
@@ -164,7 +164,7 @@ const handleClose = () => {
                             marginRight: 'auto'
                           },
                         '@media (max-width: 420px)': {
-                            marginLeft: -4, // Ajusta el margen izquierdo en pantallas menores a 620px
+                            marginLeft: 1, // Ajusta el margen izquierdo en pantallas menores a 620px
                             marginRight: 'auto'
                           },
                     }}   
@@ -176,6 +176,7 @@ const handleClose = () => {
                                 event.preventDefault();
                                 scrollToSection("Services");
                                 }}
+
                                 component="a"
                                 href="#Services"
                                 sx={{
@@ -184,7 +185,7 @@ const handleClose = () => {
                                 textDecoration: 'none',
                                 }}
                             >
-                                Services
+                                שירותים
                         </ElevationTypography>
                     </Box>
 
@@ -202,7 +203,7 @@ const handleClose = () => {
                                 textDecoration: 'none',
                                 }}
                             >
-                                Talk to Me
+                                דבר איתי
                         </ElevationTypography>
                     </Box>
 
@@ -224,7 +225,7 @@ const handleClose = () => {
                                 },
                                 }}
                             >
-                                About Me
+                                עליי
                          </ElevationTypography>
                     </Box>
 
