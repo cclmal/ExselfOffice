@@ -64,14 +64,14 @@ const formik = useFormik({
         try {
             await emailjs
                     .send(
-                    'service_iua286k',
-                    'template_3g0wkbq',
+                    'service_o1t6oci',
+                    'template_7tzp0bo',
                     {
                         name: values.name,
                         email: values.email,
                         message: values.message,
                     },
-                    'HPTvN-n2p8KT9urKG'
+                    '3dw7C_1OuAq6GlD89'
                     )
             resetForm()
         } catch (error) {
